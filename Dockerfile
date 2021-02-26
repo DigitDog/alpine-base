@@ -27,6 +27,9 @@ screen \
 git \
 tar \
 less \
-shadow
+shadow \
+ca-certificates
+
+RUN addgroup nobody tty
 
 RUN rm -rf /var/cache/apk/*
